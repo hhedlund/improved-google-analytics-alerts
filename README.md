@@ -1,4 +1,5 @@
 # improved-google-analytics-alerts
+
 Send email alerts from Google Spreadsheets with Apps Scripts using Google Analytics API Add-On for Spreadsheets
 
 ## Getting started
@@ -15,11 +16,9 @@ Retreive the data you want to work with. In my case I choose to filter on pagevi
 * Order: -ga:pageviews
 * Filters: ga:pageTitle=~(your-page-title)|404;ga:pageviews>10
 
-#### Step 2. Run the Google Analytics Add-On & Set schedule
+#### Step 2. Run the Google Analytics Add-On
 
-I choose to schedule the report to run everyday early in the morning between 07.00-08.00.
-
-You should now have some data in the report to work with.
+* You should now have some data in the report to work with.
 
 #### Step 3. Create a Google Apps Script
 
