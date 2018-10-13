@@ -25,4 +25,9 @@ You should now have some data in the report to work with.
 
 * Click **Tools** -> **Script Editor** in the Top Menu.
 * Create new script file if not available.
-* Use code below in Code.gs:
+* Use code in repository
+
+#### Step 4. Create HTML Template
+
+* Create file **template.html**
+* User code in repository
