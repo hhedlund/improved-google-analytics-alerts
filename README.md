@@ -1,6 +1,8 @@
 # improved-google-analytics-alerts
 
-Send email alerts from Google Spreadsheets with Apps Scripts using Google Analytics API Add-On for Spreadsheets
+Automate analysis with email alerts from Google Spreadsheets with Apps Scripts using Google Analytics API Add-On for Spreadsheets.
+
+Currently the custom alerts in Google Analytics are very limited. Together with Google Analytics API and Spreadsheets we can create  complex alerts that include multiple filters, segments and other calculations. This repo shows a basic example of how to use the functionality to monitor missing pages on a certain section of the domain.
 
 ## Getting started
 
