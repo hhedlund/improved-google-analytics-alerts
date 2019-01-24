@@ -36,4 +36,4 @@ Example report configuration:
 
 #### Step 5. Scheduling
 
-* Make sure to schedule the GA report and the Apps script in sequence to report has data when the script is running.
+* Make sure to schedule the GA report and the Apps script in sequence so that report has data when the script is running.
