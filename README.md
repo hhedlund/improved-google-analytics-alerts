@@ -18,7 +18,7 @@ Example report configuration:
 * End Date: today
 * Dimensions:	ga:hostname,ga:pagePath, ga:pageTitle, ga:previousPagePath
 * Order: -ga:pageviews
-* Filters: ga:pageTitle=~(your-page-title)|404;ga:pageviews>10
+* Filters: ga:pageTitle=~Page not found|404;ga:pageviews>10;ga:pagePath=~webshop
 
 #### Step 2. Run the Google Analytics Add-On
 
