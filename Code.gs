@@ -2,7 +2,7 @@ function sendEmails(spreadsheet_id,sheet_id,addresses,title) {
   var spreadsheet = SpreadsheetApp.openById(spreadsheet_id);
   var sheet = SpreadsheetApp.setActiveSheet(spreadsheet.getSheetByName(sheet_id));
 
-  // Sheet stuff
+  // Modify to include more rows or columns
   var startRow = 15;  // First row
   var endRow = 10;   // Final row
   var startColumn = 1 // First column
@@ -11,7 +11,7 @@ function sendEmails(spreadsheet_id,sheet_id,addresses,title) {
   var sheetData = dataRange.getValues();
   var columnNames = sheetData[0];
 
-  // Create object for future use
+  // For future use
   function getResults(){
     var results = []
     for(var row=1;row<sheetData.length;row++){
@@ -55,11 +55,11 @@ function sendEmails(spreadsheet_id,sheet_id,addresses,title) {
 
 // Modify Email list and Spreadsheet ID
 function run(){
-  var emailList = [<your-emails>];
+  var emailList = ['example@example.com'];
   var emailTitle = 'ALERT: 404 Pages Found'
   // Found in URL
-  var spreadsheetId = <your-id>;
-  var sheetName = <your-sheet>
+  var spreadsheetId = 'xXxXXxXXxxXXxxXXxxXXxxXXXx';
+  var sheetName = 'Sheet 1'
 
   sendEmails(spreadsheetId,sheetName,emailList,emailTitle)
 }
