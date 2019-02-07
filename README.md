@@ -16,6 +16,7 @@ Example report configuration:
 * View ID: analytics-view
 * Start Date: yesterday
 * End Date: today
+* Metrics: ga:pageviews
 * Dimensions:	ga:hostname,ga:pagePath, ga:pageTitle, ga:previousPagePath
 * Order: -ga:pageviews
 * Filters: ga:pageTitle=~Page not found|404;ga:pageviews>10;ga:pagePath=~webshop
